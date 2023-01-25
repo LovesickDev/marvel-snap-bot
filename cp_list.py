@@ -16,6 +16,12 @@ cps = {
         'max_cp': 4,
         'average_cp': 4
     },
+    'apocalypse': {
+        'mana': 6,
+        'base_cp': 8,
+        'max_cp': 20,
+        'average_cp': 16
+    },
     'bishop': {
         'mana': 3,
         'base_cp': 1,
@@ -136,4 +142,10 @@ cps = {
         'max_cp': 27,
         'average_cp': 25
     },
+    'swarm' : {
+        'mana': 0,
+        'base_cp': 3,
+        'max_cp': 3,
+        'average_cp': 3
+    }
 }

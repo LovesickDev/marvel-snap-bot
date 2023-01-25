@@ -26,11 +26,11 @@ def get_info(counter, screenshot, screenshot_dimensions, player_turn):
 
     # Detect my cards
     my_hand_cards = hand_cards.get_my_hand_cards(
-        screenshot, screenshot_dimensions, counter, False)
+        screenshot, screenshot_dimensions, counter, True)
     hand_cards.log_hand_cards(my_hand_cards)
 
     # Detect fields
-    active_fields = fields.get_fields(screenshot, screenshot_dimensions, False)
+    active_fields = fields.get_fields(screenshot, screenshot_dimensions, True)
     fields.log_fields(active_fields)
 
     # Detect field cards
